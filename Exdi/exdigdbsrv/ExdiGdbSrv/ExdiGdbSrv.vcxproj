@@ -59,7 +59,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
@@ -133,7 +133,6 @@
       <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions);MIDL_OUTPUT=$(OutputPath)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\GdbSrvControllerLib;GeneratedSources</AdditionalIncludeDirectories>
-      <AdditionalOptions>/sourcelink .\sourcelink.json %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -169,7 +168,6 @@
       <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions);MIDL_OUTPUT=$(OutputPath)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\GdbSrvControllerLib;GeneratedSources</AdditionalIncludeDirectories>
-      <AdditionalOptions>/sourcelink .\sourcelink.json %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -207,7 +205,6 @@
       <PreprocessorDefinitions>WIN32;WIN32_LEAN_AND_MEAN;_WINDOWS;_DEBUG;_USRDLL;%(PreprocessorDefinitions);MIDL_OUTPUT=$(OutputPath)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\GdbSrvControllerLib;GeneratedSources</AdditionalIncludeDirectories>
-      <AdditionalOptions>/sourcelink .\sourcelink.json %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -246,7 +243,6 @@
       <SDLCheck>true</SDLCheck>
       <AdditionalIncludeDirectories>..\GdbSrvControllerLib;GeneratedSources</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalOptions>/sourcelink .\sourcelink.json %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
@@ -291,7 +287,6 @@
       <RuntimeTypeInfo>
       </RuntimeTypeInfo>
       <DiagnosticsFormat>Classic</DiagnosticsFormat>
-      <AdditionalOptions>/sourcelink .\sourcelink.json %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Midl>
       <MkTypLibCompatible>false</MkTypLibCompatible>
